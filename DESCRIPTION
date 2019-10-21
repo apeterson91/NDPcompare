@@ -1,0 +1,23 @@
+Package: NDPcompare
+Type: Package
+Title: Reproducibly creates simulation comparisons between NDP and FHMM models
+Version: 0.1.0
+Author: Adam Peterson
+Maintainer: atpvyc@umich.edu 
+Description: Contains functions that completely reproduce simulations and table as used in (citation to be added)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    roxygen2,
+    dplyr,
+    tidyr,
+    rndpp (>= 0.1.0),
+    fhmm (>= 0.1.0),
+    purrr,
+    magrittr,
+    Matrix
+RoxygenNote: 6.1.1
+Remotes: 
+    apeterson91/rndpp,
+    apeterson91/fhmm
